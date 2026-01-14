@@ -1,3 +1,4 @@
 -r ./requirements-convert_legacy_llama.txt
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch~=2.2.1
+torch~=2.9.0
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
